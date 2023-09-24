@@ -19,5 +19,6 @@
             "mac": "Command+B"
           }
         }
-    }
+    },
+    "minimum_chrome_version": 88
 }
