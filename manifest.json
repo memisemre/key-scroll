@@ -4,12 +4,12 @@
     "version": "0.0.1",
     "description": "Key Scroll",
     "action": {
-      "default_popup": "index.html"
+      "default_popup": "popup/popup.html"
     },
     "content_scripts": [
       {
         "matches": ["<all_urls>"],
-        "js": ["index.js"]
+        "js": ["options/options.js"]
       }
     ],
     "commands": {
@@ -20,5 +20,5 @@
           }
         }
     },
-    "minimum_chrome_version": 88
+    "minimum_chrome_version": "88"
 }
